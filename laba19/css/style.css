@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Rubik Mono One', monospace;
+}
+body{
+    margin: 0;
+}
+header{
+    height: 120px;
+    background-color: #220142;
+}
+ul{
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #F98513;
+}
+section{
+    height: 900px;
+}
+section.cosmos{
+    background-color: #2e0458;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    color: white;
+}
+.cosmos img{
+    margin-left: 184px;
+}
+span{
+    color: #F98513;
+    font-size: 96px;
+    text-transform: uppercase;
+}
+
+section.mnv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #220142;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 700px;
+    background-color: #2e0458;
+    border-radius: 40px;
+    box-shadow: 7px 7px 0 0 #3a0d66;
+}
+.card + .card{
+    margin-left: 50px;
+}
+.card img{  
+    transition: 1s;
+    margin-top: 20px;
+    width: 287px;
+    height: 287px;
+}
+.card img.m:hover{
+    transform: scale(1.2);
+}
+.card img.v:hover{
+    animation: 3s linear infinite rotate;
+    transform-origin: center;
+}
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+h2{
+    margin-top: 0;
+    letter-spacing: 15px;
+    font-size: 40px;
+    text-shadow: 0 0 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.m{
+    color: #D282EE;
+}
+h2.v{
+    color: #F98513;
+}
+.card p{
+    margin-top: 0;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+section.earth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e0458;
+}
+.earth + img{
+    width: 660px;
+    height: 660px;
+}
+h2.earth{
+    color: #00D5F5;
+    text-align: center;
+}
+.text p{
+    font-size: 18px;
+    color: white;
+}
+strong{
+    font-weight: 400;
+    color: #A896D3;
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #220142;
+    height: 200px;
+    font-size: 14px;
+    color: #705EA9;
+    text-align: center; 
+}
+footer a{
+    font-size: 14px;
+    color: #705EA9;
+    text-align: center; 
+}
