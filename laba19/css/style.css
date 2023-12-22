@@ -11,14 +11,12 @@ body{
     margin: 0;
 }
 header{
-    height: 120px;
+    padding: 33px 0;
     background-color: #220142;
 }
 ul{
     border: none;
-    margin: 0;
-    padding: 0;
-    height: 120px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,10 +31,9 @@ a{
 a:hover{
     color: #F98513;
 }
-section{
-    height: 900px;
-}
+
 section.cosmos{
+    padding: 176.5px 0;
     background-color: #2e0458;
     display: flex;
     justify-content: center;
@@ -54,6 +51,7 @@ span{
 }
 
 section.mnv{
+    padding: 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +63,7 @@ section.mnv{
     justify-content: space-around;
     align-items: center;
     width: 600px;
-    height: 700px;
+    padding: 74.5px 0;
     background-color: #2e0458;
     border-radius: 40px;
     box-shadow: 7px 7px 0 0 #3a0d66;
@@ -75,7 +73,7 @@ section.mnv{
 }
 .card img{  
     transition: 1s;
-    margin-top: 20px;
+
     width: 287px;
     height: 287px;
 }
@@ -115,6 +113,7 @@ h2.v{
 }
 
 section.earth{
+    padding: 119.5px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,12 +138,12 @@ strong{
 }
 
 footer{
+    padding: 54.5px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #220142;
-    height: 200px;
     font-size: 14px;
     color: #705EA9;
     text-align: center; 
